@@ -30,23 +30,6 @@ A simple REST-based Banking System built using Spring Boot to understand backend
 
 ---
 
-## 📂 Project Structure
-
-src/main/java/com/example/Bank
-│
-├── controller
-│ ├── AccountController.java
-│ ├── CustomerController.java
-│ └── TransactionController.java
-│
-├── service
-│ ├── AccountService.java
-│ ├── CustomerService.java
-│ └── TransactionService.java
-│
-└── model
-├── Account.java
-└── Customer.java
 
 
 ---
@@ -79,3 +62,4 @@ src/main/java/com/example/Bank
 | POST | `/api/transactions/deposit/{id}` | Deposit money |
 | POST | `/api/transactions/withdraw/{id}` | Withdraw money |
 | GET | `/api/transactions/balance/{id}` | Check balance |
+
